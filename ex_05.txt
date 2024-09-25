@@ -1,0 +1,21 @@
+Exercice: Trouver le code erreur du fichier js contenant :
+
+dieser Code funktioniert nicht, er ist deutsch und nicht javascript
+       ^^^^
+
+SyntaxError: Unexpected identifier 'Code'
+    at wrapSafe (node:internal/modules/cjs/loader:1469:18)
+    at Module._compile (node:internal/modules/cjs/loader:1491:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+    at node:internal/main/run_main_module:30:49
+
+Node.js v22.8.0
+
+Ou sur jsfiddle
+
+"<a class='gotoLine' href='#47:8'>47:8</a> Uncaught SyntaxError: Unexpected identifier 'Code'"
